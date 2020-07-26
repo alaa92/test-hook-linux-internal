@@ -9,7 +9,7 @@ $ ./compile.sh
 
 # How to inject?
 Check out my video: https://youtu.be/HiOUnvNKhZ0  
-... or just open GDB and run the following commands:  
+... or just open GDB as root and run the following commands:  
 ```
 (gdb) attach <PROCESS_ID_HERE>
 (gdb) set $dlopen = (void*(*)(char*, int)) dlopen
