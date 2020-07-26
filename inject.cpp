@@ -1,4 +1,4 @@
-#include "../Memory/mem/mem.hpp"
+#include "mem/mem.hpp"
 const mem::uintptr_t offset = 0x12d0;
 typedef int(* test_t)(int num1, int num2);
 mem::int_t hk_size = 9;
